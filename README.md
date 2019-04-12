@@ -31,6 +31,7 @@ The significance of the alpha prototype, however, is that we realized a lot of f
 4. As stated above, we need to implement debouncing 
 
 # test
+## test
 From this point forwards, our goals for this project have slightly shifted from the initially stated milestones. We wish for Drüe to have the following features:
 1. Power Supply: needs boost converter for LED strips, but we also want to make it rechargeable 
 2. Keys: we want to use as close to piano keys as possible and need to implement debouncing
