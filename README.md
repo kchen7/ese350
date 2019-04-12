@@ -22,13 +22,13 @@ For the alpha prototype, a very simple version of Drüe was created using a brea
 
 The main problem we encountered was needing to debounce the buttons for two reasons. First, the buttons have a high frequency contact bounce that leads to buttons being read ad pressed multiple times. Second, it needs to be implemented such that if somebody presses and holds the button, the same tone just plays. We plan on doing extensive research on debouncing and implement it in hardware first. If it is not good enough, we'll also implement software fixes. 
 
-<img src="alpha.jpg" alt="hi" class="inline"/> 
+<img src="alpha.png" alt="hi" class="inline"/> 
 
 The significance of the alpha prototype, however, is that we realized a lot of finer details we need to consider when designing the schematic for the custom PCB. 
 1. We will likely need to use a IO expander chip to have enough outputs 
 2. Most LED strips are powered off of 12V, so we need to pick battery configuration for that
 3. A lot of speakers don't sound good, we need a better solution
 4. As stated above, we need to implement debouncing 
- 
+
 
 The goal for the Beta Prototype is to shift over to the custom PCB and work with something closer to the final project. If the PCB has not been printed yet, we'll continue working with the current prototype, but clean up the code. 
