@@ -30,7 +30,7 @@ The significance of the alpha prototype, however, is that we realized a lot of f
 3. A lot of speakers don't sound good, we need a better solution (hardware but also algorithms) 
 4. As stated above, we need to implement debouncing 
 
-**From this point forwards, our goals for this project have slightly shifted from the initially stated milestones. We wish for Drüe to have the following features: **
+**From this point forwards, our goals for this project have slightly shifted from the initially stated milestones. We wish for Drüe to have the following features:**
 ```markdown
 1. Power Supply: needs boost converter to power LED strips, but as a stretch we also want to make it rechargeable 
 2. Keys: we want to use as close to piano keys as possible and need to implement debouncing
