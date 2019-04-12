@@ -1,4 +1,7 @@
 ## Inspiration
 
+### Subtitle
 
-Mirko a ho
+### More Subtitles
+
+## Early Design 
