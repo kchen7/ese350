@@ -29,6 +29,6 @@ The significance of the alpha prototype, however, is that we realized a lot of f
 2. Most LED strips are powered off of 12V, so we need to pick battery configuration for that
 3. A lot of speakers don't sound good, we need a better solution
 4. As stated above, we need to implement debouncing 
-
+ 
 
 The goal for the Beta Prototype is to shift over to the custom PCB and work with something closer to the final project. If the PCB has not been printed yet, we'll continue working with the current prototype, but clean up the code. 
