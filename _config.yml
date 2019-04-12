@@ -1,3 +1,5 @@
-description: Testing second boi
-
 theme: Sandstorm
+
+plugins: [jekyll-paginate, jekyll-seo-tag]
+
+description: Testing second boi
