@@ -27,8 +27,8 @@ The main problem we encountered was needing to debounce the buttons for two reas
 The significance of the alpha prototype, however, is that we realized a lot of finer details we need to consider when designing the schematic for the custom PCB. 
 1. We will likely need to use a IO expander chip to have enough outputs 
 2. Most LED strips are powered off of 12V, so we need to pick battery configuration for that
-3. A lot of speakers don't sound good, we need a better solution
+3. A lot of speakers don't sound good, we need a better solution (hardware but also algorithms) 
 4. As stated above, we need to implement debouncing 
 
 
-The goal for the Beta Prototype is to shift over to the custom PCB and work with something closer to the final project. If the PCB has not been printed yet, we'll continue working with the current prototype, but clean up the code. 
+The goal for the Beta Prototype is to shift over to the custom PCB and work with something closer to the final project. If the PCB has not been printed yet, we'll continue working with the current prototype, but clean up the code. In the grand scheme of things, we want to emphasize better audio that is more realistic. 
