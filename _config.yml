@@ -1,5 +1,5 @@
-theme: Sandstorm
+theme: slate
 
 plugins: [jekyll-paginate, jekyll-seo-tag]
 
-description: Testing second boi
+description: Sandstorm
