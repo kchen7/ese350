@@ -30,5 +30,10 @@ The significance of the alpha prototype, however, is that we realized a lot of f
 3. A lot of speakers don't sound good, we need a better solution (hardware but also algorithms) 
 4. As stated above, we need to implement debouncing 
 
-
-The goal for the Beta Prototype is to shift over to the custom PCB and work with something closer to the final project. If the PCB has not been printed yet, we'll continue working with the current prototype, but clean up the code. In the grand scheme of things, we want to emphasize better audio that is more realistic. 
+```markdown
+From this point forwards, our goals for this project have slightly shifted from the initially stated milestones. We wish for Drüe to have the following features: 
+1. Power Supply: needs boost converter to power LED strips, but as a stretch we also want to make it rechargeable 
+2. Keys: we want to use as close to piano keys as possible and need to implement debouncing
+3. LEDs: LED strips to light up keys, mode led indicators, and a screen of some sort
+4. Music: implement an algorithm to make Drüe sound like an actual piano
+```
