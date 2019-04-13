@@ -27,15 +27,12 @@ The main problem we encountered was needing to debounce the buttons for two reas
 
 <img src="alpha.png" alt="hi" class="inline"/> 
 
-The significance of the alpha prototype, however, is that we realized a lot of finer details we need to consider when designing the schematic for the custom PCB. 
-1. We will likely need to use a IO expander chip to have enough outputs 
-2. Most LED strips are powered off of 12V, so we need to pick battery configuration for that
-3. A lot of speakers don't sound good, we need a better solution (hardware but also algorithms) 
-4. As stated above, we need to implement debouncing 
+The significance of the alpha prototype, however, is that we fully developed what we wish to accomplish with the custom PCB. They are listed in the next section. 
 
 ### Revised Goals
 From this point forwards, our goals for this project have slightly shifted from the initially stated milestones. We wish for Drüe to have the following features:
 1. Music: implement an algorithm to make Drüe sound like an actual piano
-2. Power Supply: needs boost converter for LED strips, but we also want to make it rechargeable 
-3. Keys: we want to use as close to piano keys as possible and need to implement debouncing
+2. Power Supply: needs boost converter for 12V LED strips, but we also want to make it rechargeable 
+3. Keys: we want to use as keys that are as piano-like as possible and need to implement debouncing (hardware first, then software if needed) 
 4. LEDs: LED strips to light up keys, mode led indicators, and a display of some sort (not necessarily LCD because we want to shift our focus to the other goals) 
+5. Will likely need an IO expander chip to have enough outputs 
