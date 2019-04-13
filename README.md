@@ -35,7 +35,7 @@ The significance of the alpha prototype, however, is that we realized a lot of f
 
 ### Revised Goals
 From this point forwards, our goals for this project have slightly shifted from the initially stated milestones. We wish for Drüe to have the following features:
-1. Power Supply: needs boost converter for LED strips, but we also want to make it rechargeable 
-2. Keys: we want to use as close to piano keys as possible and need to implement debouncing
-3. LEDs: LED strips to light up keys, mode led indicators, and a screen of some sort
-4. Music: implement an algorithm to make Drüe sound like an actual piano
+1. Music: implement an algorithm to make Drüe sound like an actual piano
+2. Power Supply: needs boost converter for LED strips, but we also want to make it rechargeable 
+3. Keys: we want to use as close to piano keys as possible and need to implement debouncing
+4. LEDs: LED strips to light up keys, mode led indicators, and a display of some sort (not necessarily LCD because we want to shift our focus to the other goals) 
