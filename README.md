@@ -25,7 +25,7 @@ For the alpha prototype, a very simple version of Drüe was created using a brea
 
 The main problem we encountered was needing to debounce the buttons for two reasons. First, the buttons have a high frequency contact bounce that leads to buttons being read ad pressed multiple times. Second, it needs to be implemented such that if somebody presses and holds the button, the same tone just plays. We plan on doing extensive research on debouncing and implement it in hardware first. If it is not good enough, we'll also implement software fixes. 
 
-<img src="alpha.png" alt="hi" class="inline"/> 
+<img src="alpha.png" alt="hi" class="inline" width="250"/> 
 
 The significance of the alpha prototype, however, is that we fully developed what we wish to accomplish with the custom PCB. They are listed in the next section. 
 
