@@ -17,6 +17,9 @@ These goals outline other features that may be implemented if time permits.
 - Drüe runs a memory test, akin to Simon 
 - Drüe can teach piano 
 
+### Technical Goal
+From a technical standpoint, our goal is to create a self-contained product, complete with a custom PCB, clean enclosure, and power supply. We also wish to implement algorithms that make the project sound as piano-like as possible. 
+
 ## Alpha Prototype 
 For the alpha prototype, a very simple version of Drüe was created using a breadboard, LEDs, and simple push buttons. As for the functionality, a very simple version of Whac-A-Mole was coded where a button press would play a tone only if the corresponding LED was lit. A seconday mode was also included where the buttons acted like a piano. 
 
