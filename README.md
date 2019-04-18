@@ -36,3 +36,14 @@ From this point forwards, our goals for this project have slightly shifted from 
 3. **Keys:** we want to use as keys that are as piano-like as possible and need to implement debouncing (hardware first, then software if needed) 
 4. **LEDs:** LED strips to light up keys, mode led indicators, and a display of some sort (not necessarily LCD because we want to shift our focus to the other goals) 
 5. Will likely need an IO expander chip to have enough outputs 
+
+## Beta Prototype
+### Custom PCB
+For the beta prototype, we focused a lot of our efforts on designing the custom PCB so that we could place an order with all the parts and the board itself in time. The design is documented below: 
+
+
+
+### Piano Sound Replication
+We researched Karplus-Strong Algorithm and FM Synthesis for producing a piano sound, but found that neither were close enough. For this reason, we will likely go with the sampling route where audio files of a piano will be played from an SD Card. To keep our options open, however, we are maintaining a PWM output along with the AnalogOut output. 
+
+### Software (Demo) 
