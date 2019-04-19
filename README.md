@@ -45,3 +45,6 @@ For the beta prototype, we focused a lot on designing the custom PCB so that we 
 We researched Karplus-Strong Algorithm and FM Synthesis for producing a piano sound, but found that neither were close enough. For this reason, we will likely go with the sampling route where audio files of a piano will be played from an SD Card. To keep our options open, however, we are maintaining a PWM output along with the AnalogOut output. 
 
 ### Software (Demo) 
+We temporarily removed the "wack-a-mole" functionality to focus on implementing debouncing and driving an I2C IO expander. On the front of the debouncing, we implemented a simple RC hardware fix first. The idea behind this fix is that the button input has to go through an RC circuit and charge the capcitor before the microcontroller receives the signal. This makes the random noise when pressing a button unable to reach the microcontroller. On the software side, we made it so the piano keys could only be pressed one at a time. That is, the keys are now dependent. 
+
+For the I2C IO expander... 
