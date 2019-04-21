@@ -1,6 +1,6 @@
 ## Concept
 
-<img src = "drue devpost logo.png" class="inline" width="600"/> 
+<img src = "drue devpost logo.png" style="text-align: center" class="inline" width="600"/> 
 
 ### Introduction
 Drüe, a piano-themed Whac-A-Mole game, aims to pull young children away from computer screens and help them develop hand-eye coordination, motor skills, and memory. On a basic level, Drüe can run classic Whac-A-Mole; however, different modes can be used to teach piano, test reaction time and improve memory. 
