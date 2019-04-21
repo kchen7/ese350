@@ -25,7 +25,7 @@ For the alpha prototype, a very simple version of Drüe was created using a brea
 
 The main problem we encountered was needing to debounce the buttons for two reasons. First, the buttons have a high frequency contact bounce that leads to buttons being read ad pressed multiple times. Second, it needs to be implemented such that if somebody presses and holds the button, the same tone just plays. We plan on doing extensive research on debouncing and implement it in hardware first. If it is not good enough, we'll also implement software fixes. 
 
-<img src="alpha.png" alt="hi" class="inline" width="600"/> 
+<img src="alpha.png" class="inline" width="600"/> 
 
 The significance of the alpha prototype, however, is that we fully developed what we wish to accomplish with the custom PCB. They are listed in the next section. 
 
@@ -47,4 +47,7 @@ We researched Karplus-Strong Algorithm and FM Synthesis for producing a piano so
 ### Software (Demo) 
 We temporarily removed the "wack-a-mole" functionality to focus on implementing debouncing and driving an I2C IO expander. On the front of the debouncing, we implemented a simple RC hardware fix first. The idea behind this fix is that the button input has to go through an RC circuit and charge the capcitor before the microcontroller receives the signal. This makes the random noise when pressing a button unable to reach the microcontroller. On the software side, we made it so the piano keys could only be pressed one at a time. That is, the keys are now dependent. 
 
-For the I2C IO expander... 
+For the I2C IO expander, we are working on getting them to light up representative LEDs. For the final project, it will be driving mosfets that control the LED strips on the keys. 
+
+<img src="beta.png" class="inline" width="600"/> 
+
