@@ -48,7 +48,7 @@ From this point forwards, our goals for this project have slightly shifted from 
 For the beta prototype, we focused a lot on designing the custom PCB so that we could place an order with all the parts and the board itself in time. [The schematic and PCB are documented here.](https://drive.google.com/file/d/1xk1kX1hMNSZrc-SdiFMO_hBEZa87qssB/view?usp=sharing)
 
 <p align="center">
-<img src="drue pcb.png" class="inline" width="500"/> 
+<img src="drue pcb.PNG" class="inline" width="500"/> 
 </p>
 
 ### Piano Sound Replication
