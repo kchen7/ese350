@@ -31,7 +31,7 @@ The main problem we encountered was needing to debounce the buttons for two reas
 
 <p align="center">
 <img src="alpha.png" class="inline" width="500"/> 
-<\p>
+</p>
 
 The significance of the alpha prototype, however, is that we fully developed what we wish to accomplish with the custom PCB. They are listed in the next section. 
 
@@ -57,7 +57,7 @@ For the I2C IO expander, we are working on getting them to light up representati
 
 <p align="center">
 <img src="alpha.png" class="inline" width="500"/> 
-<\p>
+</p>
 
 The goal for the baseline demo is to have the LEDs working and Whac-A-Mole coded to work with these LEDs. In addition, we'd like some sort of display added as well, be it an 8888 bar led display or a full SPI screen. 
 
