@@ -45,7 +45,7 @@ From this point forwards, our goals for this project have slightly shifted from 
 
 ## Beta Prototype
 ### Custom PCB
-For the beta prototype, we focused a lot on designing the custom PCB so that we could place an order with all the parts and the board itself in time. [The schematic is documented here.](https://drive.google.com/file/d/1xk1kX1hMNSZrc-SdiFMO_hBEZa87qssB/view?usp=sharing)
+For the beta prototype, we focused a lot on designing the custom PCB so that we could place an order with all the parts and the board itself in time. [The schematic and PCB are documented here.](https://drive.google.com/file/d/1xk1kX1hMNSZrc-SdiFMO_hBEZa87qssB/view?usp=sharing)
 
 ### Piano Sound Replication
 We researched Karplus-Strong Algorithm and FM Synthesis for producing a piano sound, but found that neither were close enough. For this reason, we will likely go with the sampling route where audio files of a piano will be played from an SD Card. To keep our options open, however, we are maintaining a PWM output along with the AnalogOut output. For this week's demo, a PWM signal will still be used; however, a better speaker and an amplifier circuit were implemented. 
