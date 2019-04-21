@@ -52,3 +52,5 @@ For the I2C IO expander, we are working on getting them to light up representati
 <img src="beta.png" class="inline" width="600"/> 
 
 The goal for the baseline demo is to have the LEDs working and Whac-A-Mole coded to work with these LEDs. In addition, we'd like some sort of display added as well, be it an 8888 bar led display or a full SPI screen. 
+
+## Baseline Demo
