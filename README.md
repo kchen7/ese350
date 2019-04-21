@@ -1,7 +1,7 @@
 ## Concept
 
 <p align="center">
-<img src = "drue devpost logo.png" class="inline" width="200"/> 
+<img src = "drue.png" class="inline" width="200"/> 
 </p>
 
 ### Introduction
