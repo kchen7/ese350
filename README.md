@@ -1,7 +1,7 @@
 ## Concept
 
 <p align="center">
-<img src = "drue devpost logo.png" class="inline" width="300"/> 
+<img src = "drue devpost logo.png" class="inline" width="200"/> 
 </p>
 
 ### Introduction
@@ -29,7 +29,9 @@ For the alpha prototype, a very simple version of Drüe was created using a brea
 
 The main problem we encountered was needing to debounce the buttons for two reasons. First, the buttons have a high frequency contact bounce that leads to buttons being read ad pressed multiple times. Second, it needs to be implemented such that if somebody presses and holds the button, the same tone just plays. We plan on doing extensive research on debouncing and implement it in hardware first. If it is not good enough, we'll also implement software fixes. 
 
-<img src="alpha.png" class="inline" width="600"/> 
+<p align="center">
+<img src="alpha.png" class="inline" width="500"/> 
+<\p>
 
 The significance of the alpha prototype, however, is that we fully developed what we wish to accomplish with the custom PCB. They are listed in the next section. 
 
@@ -53,7 +55,9 @@ We temporarily removed the "wack-a-mole" functionality to focus on implementing 
 
 For the I2C IO expander, we are working on getting them to light up representative LEDs. For the final project, it will be driving mosfets that control the LED strips on the keys. 
 
-<img src="beta.png" class="inline" width="600"/> 
+<p align="center">
+<img src="alpha.png" class="inline" width="500"/> 
+<\p>
 
 The goal for the baseline demo is to have the LEDs working and Whac-A-Mole coded to work with these LEDs. In addition, we'd like some sort of display added as well, be it an 8888 bar led display or a full SPI screen. 
 
