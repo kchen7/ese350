@@ -69,7 +69,7 @@ The goal for the baseline demo is to have the LEDs working and Whac-A-Mole coded
 For the baseline demo, we were able to get the I2C I/O Expander working to light up the piano key's indicator LEDs. In addition, Whac-A-Mole was programmed and playing piano sounds from an SD card was prototyped. We also experimented with different types of amplifier circuits for the Baseline Demo to see what types of results we could achieve. The breadboard did not change significantly, so a picture of the PCB that came in is included below: 
 
 <p align="center">
-<img src="emptyPCB.png" class="inline" width="500"/> 
+<img src="emptyPCB.jpg" class="inline" width="500"/> 
 </p>
 
 ### Reach Goals
