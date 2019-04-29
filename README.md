@@ -66,3 +66,17 @@ For the I2C IO expander, we are working on getting them to light up representati
 The goal for the baseline demo is to have the LEDs working and Whac-A-Mole coded to work with these LEDs. In addition, we'd like some sort of display added as well, be it an 8888 bar led display or a full SPI screen. 
 
 ## Baseline Demo
+For the baseline demo, we were able to get the I2C I/O Expander working to light up the piano key's indicator LEDs. In addition, Whac-A-Mole was programmed and playing piano sounds from an SD card was prototyped. We also experimented with different types of amplifier circuits for the Baseline Demo to see what types of results we could achieve. The breadboard did not change significantly, so a picture of the PCB that came in is included below: 
+
+<p align="center">
+<img src="emptyPCB.png" class="inline" width="500"/> 
+</p>
+
+### Reach Goals
+At this point, there are 6 directions the project needs to move in to achieve our goal of a polished product. While realistically these won't all be achieved by the reach demo on Wednesday, the product will continue to be worked on all the way up to the public demo. 
+1. An SPI screen needs to be implemented to make scrolling through menus more intuitive. The screen would also help with displaying the scrore in Whac-A-Mole or even adding a feature where notes fall on the screen before needing to be pressed (like with guitar hero). 
+2. A more complicated scoring system that uses timers. Right now the scoring is just 1 point for 1 correct press. A simple improvement would be deducting points for incorrect presses and timing the game. A more complicated system could award points based on response time. 
+3. The PCB needs to be soldered so work on the project will move to that instead. 
+4. The "learn a piano" mode should be expanded to include more songs. 
+5. An enclosure needs to be designed for the piano. 
+6. Playing piano sounds needs to be designed/tuned better. 
