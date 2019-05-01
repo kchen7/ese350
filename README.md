@@ -80,3 +80,9 @@ At this point, there are 6 directions the project needs to move in to achieve ou
 4. The "learn a piano" mode should be expanded to include more songs. 
 5. An enclosure needs to be designed for the piano. 
 6. Playing piano sounds needs to be designed/tuned better. 
+
+## Reach Demo
+For the Reach Demo, we decided to focus on points 3 and 5 in order to present a project that would look more like what we would finally end up going for. On the PCB side, there were quickly power supply problems. 
+
+### Power Supply Problems
+First, we were planning on using Lipo batteries, but our lab placed a ban on those. Thus, we had to look for new power sources. For the time being, we decided to use power supplies. However, we didn't realize that the 5V output on the mbed is from the uSB cable and not stepped down from this power supply. As a result, we still need to connect a USB input in order to power the amplifier. Finally, there is a lot of noise from the speaker that we can't attribute to any source, unless both the usb power and external power are plugged in. 
